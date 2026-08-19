@@ -1,10 +1,10 @@
 # Failure Modes: How Enablement Programs Die
 
-Enablement programs rarely die dramatically. They die of politeness — slowly, with good dashboards. This catalog is for spotting the pattern early, while it's still cheap to correct. Each entry: what it looks like, why it happens, and the counter-move.
+Enablement programs rarely die dramatically. They die of politeness: slowly, with good dashboards. This catalog is for spotting the pattern early, while it's still cheap to correct. Each entry: what it looks like, why it happens, and the counter-move.
 
 ## 1. Adoption theater
 
-**Looks like:** Impressive activity metrics — seats provisioned, weekly actives, prompts sent, "AI champions trained" — with no workflow that works differently than it did a year ago.
+**Looks like:** Impressive activity metrics (seats provisioned, weekly actives, prompts sent, "AI champions trained") with no workflow that works differently than it did a year ago.
 
 **Why it happens:** Activity is easy to measure and easy to buy; outcomes are neither. Programs report what makes the program look good.
 
@@ -12,7 +12,7 @@ Enablement programs rarely die dramatically. They die of politeness — slowly, 
 
 ## 2. The slide factory (center of excellence without deployment)
 
-**Looks like:** A central AI team producing strategies, guidelines, vendor evaluations, and maturity assessments — everything except shipped workflow changes. Business teams learn to route around it.
+**Looks like:** A central AI team producing strategies, guidelines, vendor evaluations, and maturity assessments: everything except shipped workflow changes. Business teams learn to route around it.
 
 **Why it happens:** Central teams are staffed with strategists instead of builders, and measured on governance artifacts instead of deployments.
 
@@ -20,9 +20,9 @@ Enablement programs rarely die dramatically. They die of politeness — slowly, 
 
 ## 3. Platform before proof
 
-**Looks like:** Six months building the internal "AI platform" — gateway, vector store, agent framework — before any workflow win exists. The platform ships; nobody comes.
+**Looks like:** Six months building the internal "AI platform" (gateway, vector store, agent framework) before any workflow win exists. The platform ships; nobody comes.
 
-**Why it happens:** Platform work feels strategic and is comfortable for engineers; sitting with the claims-processing team feels like consulting. Also, infrastructure has no users to disappoint — yet.
+**Why it happens:** Platform work feels strategic and is comfortable for engineers; sitting with the claims-processing team feels like consulting. Also, infrastructure has no users to disappoint, yet.
 
 **Counter-move:** Platform components must be *extracted from* working deployments, never speculated in advance. Rule of thumb: build a shared component when the third deployment needs it.
 
@@ -30,7 +30,7 @@ Enablement programs rarely die dramatically. They die of politeness — slowly, 
 
 **Looks like:** Dozens of pilots, none in production. Every demo impresses; nothing survives contact with security review, data access requests, or the budget cycle.
 
-**Why it happens:** Pilots are scoped for demo-ability, not production-ability — the hard constraints (data access, compliance, who maintains this) are deferred rather than confronted.
+**Why it happens:** Pilots are scoped for demo-ability, not production-ability. The hard constraints (data access, compliance, who maintains this) are deferred rather than confronted.
 
 **Counter-move:** Scope every pilot with its production path in view: use real data (or realistic scale) from week one, involve security/compliance at kickoff rather than at handoff, and name the long-term owner *before* the pilot starts. A pilot with no willing owner should not begin.
 
@@ -52,7 +52,7 @@ Enablement programs rarely die dramatically. They die of politeness — slowly, 
 
 ## 7. Trust collapse
 
-**Looks like:** An early, visible AI failure — a hallucinated figure in a client deliverable, a bad automated reply — and usage craters org-wide, including in workflows that were working.
+**Looks like:** An early, visible AI failure (a hallucinated figure in a client deliverable, a bad automated reply) and usage craters org-wide, including in workflows that were working.
 
 **Why it happens:** Verification steps were designed out too early (autonomy before track record), and expectations weren't set that error rates are nonzero and managed, not zero.
 
@@ -62,7 +62,7 @@ Enablement programs rarely die dramatically. They die of politeness — slowly, 
 
 **Looks like:** Every use case requires a review board that meets monthly and defaults to no. Shadow AI flourishes; sanctioned AI stagnates. The org gets all the risk and none of the value.
 
-**Why it happens:** Risk functions are accountable for failures, not for foregone gains — their rational move is to block.
+**Why it happens:** Risk functions are accountable for failures, not for foregone gains. Their rational move is to block.
 
 **Counter-move:** Governance as a *paved road*, not a gate: pre-approved patterns, tools, and data tiers where teams can move without asking, and review reserved for genuinely novel risk. Make the risk function co-own an adoption metric so "no" stops being free.
 
@@ -76,4 +76,4 @@ Enablement programs rarely die dramatically. They die of politeness — slowly, 
 
 ---
 
-**Meta-observation:** almost every failure mode above is a feedback-loop failure — between the center and the edge (2, 3), between activity and outcome (1, 5), between risk and value (7, 8), or between effort and reward (6). The programs that survive are the ones that wire the loops deliberately. That is, at bottom, what [forward deployment](../forward-deployment/00-overview.md) is: a feedback loop with a job title.
+**Meta-observation:** almost every failure mode above is a feedback-loop failure. Between the center and the edge (2, 3), between activity and outcome (1, 5), between risk and value (7, 8), or between effort and reward (6). The programs that survive are the ones that wire the loops deliberately. That is, at bottom, what [forward deployment](../forward-deployment/00-overview.md) is: a feedback loop with a job title.

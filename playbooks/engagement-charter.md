@@ -4,21 +4,21 @@ One page, agreed before the engagement starts, signed by the sponsor and the FDE
 
 ---
 
-## Engagement: [name — e.g., "Support triage, Team X"]
+## Engagement: [name, e.g. "Support triage, Team X"]
 
 **Date:** [start] → [hard end of timebox]
 **Status:** Draft / Signed / Revised after discovery ([date])
 
 ### The workflow
 
-[2–3 sentences: the workflow as currently understood — what comes in, what goes out, who does it, how often. This section gets rewritten after discovery; note the revision date above.]
+[2 to 3 sentences: the workflow as currently understood. What comes in, what goes out, who does it, how often. This section gets rewritten after discovery; note the revision date above.]
 
 ### The target
 
 | | Baseline (measured [dates]) | Target | Measured how |
 |---|---|---|---|
 | [primary metric, e.g. median cycle time] | [value] | [value] | [instrument/source] |
-| [paired quality metric — mandatory] | [value] | [no worse than / better than] | [instrument/source] |
+| [paired quality metric, mandatory] | [value] | [no worse than / better than] | [instrument/source] |
 
 *Rule: a speed metric never appears without its paired quality metric. No baseline, no start.*
 
@@ -26,7 +26,7 @@ One page, agreed before the engagement starts, signed by the sponsor and the FDE
 
 | Role | Name | Commitment |
 |---|---|---|
-| Sponsor (clears blockers, owns the decision) | [name] | [e.g., 30 min/wk + escalation SLA] |
+| Sponsor (clears blockers, owns the decision) | [name] | [e.g. 30 min/wk + escalation SLA] |
 | Problem owner (does this work daily) | [name] | [hrs/wk] |
 | Champion (team-side, carries it after handoff) | [name] | [hrs/wk, on their manager's books] |
 | FDE / enablement lead | [name] | [allocation] |
@@ -52,7 +52,7 @@ When this engagement ends, [champion/owner name] owns the workflow: they can ope
 
 ### Out of scope
 
-[Bullet the adjacent things this engagement will *not* do — the requests you're already anticipating. This list is what protects the timebox.]
+[Bullet the adjacent things this engagement will *not* do: the requests you're already anticipating. This list is what protects the timebox.]
 
 ### Signatures
 
