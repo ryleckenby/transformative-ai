@@ -12,6 +12,8 @@ Shared vocabulary for this repo. Half the arguments in this space dissolve once 
 
 **Coverage**: Work that gets done post-AI that simply didn't get done before (the tests never written, the follow-ups never sent). The most under-reported win category, and often the least politically fraught.
 
+**Decision log**: The project's standing record of determinations that changed its course: what was decided, when, by whom, and why. Fed by the meeting record pipeline; consulted by agents and humans before re-litigating or contradicting settled questions. See [sprint zero](enablement/05-sprint-zero.md).
+
 **Eval set / golden examples**: Real inputs with known-good outputs, collected from the actual workflow, used to test AI behavior before and after any change (model, prompt, agent, config). The unit of quality assurance for deployed AI; also the preserved seed that lets a killed pilot be cheaply re-tested when capability improves.
 
 **FDE (forward-deployed engineer)**: An engineer embedded with the customer or team that owns a problem, who ships working software in that context and feeds learnings back to a platform. Roughly 60% engineer, 25% product manager, 15% diplomat. See [the FDE model](forward-deployment/01-the-fde-model.md).
@@ -32,6 +34,8 @@ Shared vocabulary for this repo. Half the arguments in this space dissolve once 
 
 **Kill (clean)**: Ending a pilot that didn't hit its target: explicitly, in writing, with reasons and a preserved eval set. A legitimate outcome that builds program credibility; distinguished from the zombie pilot, which ends never and proves nothing. "Not yet" and "no" are different verdicts.
 
+**Knowledge intake pipeline**: A project's designated landing zone for supporting documents (requirements, research, specs, reference material) plus the agent that classifies each arrival by type and processes it with the skill(s) mapped to that type, filing the result into a living knowledge base. See [sprint zero](enablement/05-sprint-zero.md).
+
 **Paved road**: Governance delivered as pre-approved patterns, tools, and data tiers that teams can use without asking, with review reserved for novel risk. The alternative to governance-as-veto.
 
 **Pilot graveyard**: An org's accumulation of impressive demos that never reached production, usually because production constraints (access, compliance, ownership) were deferred past the point of confrontation.
@@ -39,6 +43,10 @@ Shared vocabulary for this repo. Half the arguments in this space dissolve once 
 **Platform (in this repo's sense)**: The shared, reusable layer that embedded engagements draw on and feed: patterns, connectors, eval harnesses, deployment templates. Legitimate only when extracted from real deployments (see *third-time rule*).
 
 **Problem owner**: The person who does the workflow daily and answers for its output. Distinct from the sponsor; an engagement with a sponsor but no problem owner is a demo in progress.
+
+**Skill**: A packaged, versioned procedure an agent can apply: how to summarize a research document, extract action items from a transcript, run a security pass. Global skills are maintained centrally and inherited by every project; a project-local skill wanted by a third project is a graduation candidate. See [sprint zero](enablement/05-sprint-zero.md).
+
+**Sprint zero (stage zero)**: The per-project setup phase, expanded for the AI era: instantiate the standard scaffold, write the AI instructions, attach the skills manifest, and wire the standing pipelines (knowledge intake, meeting records) so agents are working project members from day one. Done when the smoke tests pass, not when the checklist is read. Distinct from Stage 0 of the org [maturity model](enablement/01-maturity-model.md). See [sprint zero](enablement/05-sprint-zero.md).
 
 **Stage 2 / workflow win**: The repeatable unit of AI transformation: one recurring workflow, redesigned with AI in the loop, with a measured before/after. See the [maturity model](enablement/01-maturity-model.md).
 

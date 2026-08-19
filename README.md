@@ -17,9 +17,9 @@ This is a *knowledge project*, not a software project. Everything here is prose,
 
 | Section | What's in it |
 |---|---|
-| [`enablement/`](enablement/) | What AI enablement is, a maturity model, an adoption playbook, failure modes, and how to measure impact |
+| [`enablement/`](enablement/) | What AI enablement is, a maturity model, an adoption playbook, failure modes, how to measure impact, and sprint zero: setting up agent-ready projects |
 | [`forward-deployment/`](forward-deployment/) | The forward-deployed engineering (FDE) model: its history, the engagement lifecycle, team shapes, and how to run it inside your own org |
-| [`playbooks/`](playbooks/) | Ready-to-use templates: discovery question bank, engagement charter, pilot scorecard, handoff checklist |
+| [`playbooks/`](playbooks/) | Ready-to-use templates: discovery question bank, engagement charter, pilot scorecard, handoff checklist, sprint zero checklist |
 | [`GLOSSARY.md`](GLOSSARY.md) | Shared vocabulary, because half of the confusion in this space is terminological |
 | [`READING.md`](READING.md) | Curated sources and further reading |
 
@@ -28,6 +28,7 @@ This is a *knowledge project*, not a software project. Everything here is prose,
 - If you're asking **"how do I get my org to actually use AI?"**, start with [enablement/00-overview.md](enablement/00-overview.md)
 - If you're asking **"what is a forward-deployed engineer and should we have them?"**, start with [forward-deployment/00-overview.md](forward-deployment/00-overview.md)
 - If you're about to **kick off an AI project with a team**, grab the templates in [playbooks/](playbooks/)
+- If you're asking **"how should a project be set up so AI agents can actually work in it?"**, start with [enablement/05-sprint-zero.md](enablement/05-sprint-zero.md)
 
 ## Core theses
 
