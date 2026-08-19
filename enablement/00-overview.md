@@ -46,3 +46,4 @@ A serious enablement function combines four ingredients:
 | [03-failure-modes.md](03-failure-modes.md) | What kills these programs, and how do I spot it early? |
 | [04-measuring-impact.md](04-measuring-impact.md) | How do I know if any of this is working? |
 | [05-sprint-zero.md](05-sprint-zero.md) | How do I set up a single project so agents are working members from day one? |
+| [06-reference-project-setup.md](06-reference-project-setup.md) | Concretely, what does an agent-ready project look like: the tree, the infrastructure, the people, a worked example? |

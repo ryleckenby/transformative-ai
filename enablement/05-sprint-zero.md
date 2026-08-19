@@ -40,6 +40,35 @@ The capability layer: the organization's shared library of skills, inherited by 
 ### 4. Defined processes
 The wiring layer, and the part that makes the project genuinely agent-ready: standing pipelines that connect *types of information* to *the skills that process them*. The two workhorses are below.
 
+## Defining the personas
+
+Before the pipelines have anything to serve, sprint zero answers two "who" questions in writing. Both sets of personas live in the project tree, versioned like everything else, because agents need them as much as humans do.
+
+### Delivery personas: who runs the project
+
+The cast required for the project's life, each named to a real person (or a real agent) with commitment stated. The human side echoes the [engagement charter](../playbooks/engagement-charter.md): sponsor (clears blockers, owns the verdict), problem owner (does the work daily, answers for the output), champion (carries the result after handoff), FDE or enablement lead (builds), platform support (borrowed depth).
+
+The new discipline is treating **agents as named delivery personas too.** Each standing agent in the project gets a role definition, exactly as a human would:
+
+- **name and mandate**: "Intake Processor: classifies and processes everything arriving in the intake, per the type-to-skill mapping"
+- **boundaries**: what it may write (proposals), what it may never touch (the decision log directly, anything outward-facing)
+- **escalation**: what it hands to a human rather than guessing (unclassifiable documents, conflicting decisions, low-confidence extractions)
+- **accountability**: which human reviews its output, and on what cadence
+
+Writing agents down this way sounds ceremonial and isn't. It's what makes the human gates auditable, tells every team member what the agents will and won't do (which is where trust starts), and gives you somewhere to widen autonomy deliberately (edit the persona, on track record) instead of by drift.
+
+### Target personas: who the project serves
+
+The people whose work the project changes: the claims adjuster, the support rep, the analyst downstream. For each, capture what discovery surfaced (the [question bank](../playbooks/discovery-questions.md) produces this almost directly):
+
+- their goal in the workflow, and what a good day looks like
+- their pain: what they hate, where they wait, what they route around
+- their judgment: what they decide that the system must never take from them
+- their verification behavior: how they'll check AI-assisted output, and how cheap that check must be to survive contact with a real workload
+- what "better" measurably means to them, in their words
+
+Target personas are not marketing artifacts here; they're **design and evaluation inputs.** The eval set should test against what these personas count as good. The pipelines should tag knowledge and proposals by the persona they affect. And when a decision in the log changes what a persona experiences, that's exactly the kind of impact the meeting pipeline should flag. A project that can't name who it serves, in this concrete way, is a [demo in progress](../GLOSSARY.md).
+
 ## Process one: the knowledge intake pipeline
 
 Every project accumulates supporting material: requirements documents, research, vendor specs, prior art, reference designs, background reading. In most projects this lands wherever it lands (email, chat, someone's drive) and its contents live only in the heads of whoever read it.
@@ -73,6 +102,7 @@ By the end of sprint zero, these artifacts exist and are wired together:
 | Project scaffold | Standard structure, instantiated from the org template |
 | AI instructions | Root context file, inheriting org-global instructions |
 | Skills manifest | Which global skills are active, plus any project-local ones |
+| Persona definitions | Delivery personas (humans and agents, with mandates and boundaries) and target personas (who the project serves, as design and eval inputs) |
 | Knowledge base + intake | The inbox, the type-to-skill mapping, the processed store |
 | Meeting repository + pipeline | The record store and the extraction agent behind it |
 | Decision log | Empty but standing, fed by the meeting pipeline |
@@ -80,7 +110,7 @@ By the end of sprint zero, these artifacts exist and are wired together:
 
 **The definition of done is a test, not a checklist review:** drop a real document into the intake and watch it get classified, processed, and filed. Feed in a real meeting transcript and watch action items, decisions, and refinements come out as proposals. A new member, human or agent, can onboard from the repository alone, with no oral tradition required. If those three things work, sprint zero is done.
 
-The operational checklist version of this doc lives at [playbooks/sprint-zero-checklist.md](../playbooks/sprint-zero-checklist.md).
+The operational checklist version of this doc lives at [playbooks/sprint-zero-checklist.md](../playbooks/sprint-zero-checklist.md). For what all of this concretely looks like (the directory tree, the infrastructure tiers, a worked example), see the [reference project setup](06-reference-project-setup.md).
 
 ## Anti-patterns
 

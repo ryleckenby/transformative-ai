@@ -28,6 +28,14 @@ The operational companion to [Sprint Zero: The Agent-Ready Project](../enablemen
 - [ ] Project-local skills identified: [list, or "none"]
 - [ ] For each local skill: a note on whether it's a candidate for the global library, and what would qualify it (the third project that wants it)
 
+## Personas
+
+- [ ] Delivery personas named to real people: sponsor, problem owner, champion, FDE/lead, platform support, with commitments stated
+- [ ] Every standing agent written up as a delivery persona: mandate, write boundaries, escalation triggers, reviewing human and cadence
+- [ ] Target personas documented from discovery: goal, pain, protected judgment, verification behavior, and what "better" measurably means to them
+- [ ] Target personas wired in: eval criteria reference them, and pipeline outputs tag which persona a proposal or decision affects
+- [ ] Personas stored in the project tree (versioned), not in a slide deck
+
 ## Knowledge intake pipeline
 
 - [ ] Intake location live: [path/channel]

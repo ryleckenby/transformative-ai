@@ -38,6 +38,8 @@ Shared vocabulary for this repo. Half the arguments in this space dissolve once 
 
 **Paved road**: Governance delivered as pre-approved patterns, tools, and data tiers that teams can use without asking, with review reserved for novel risk. The alternative to governance-as-veto.
 
+**Personas (delivery / target)**: The two "who" definitions a project writes down in sprint zero. Delivery personas are who runs the project, humans and standing agents alike, each with a mandate, boundaries, and escalation rules; target personas are who the project serves, captured as design and evaluation inputs (goal, pain, protected judgment, verification behavior). See [sprint zero](enablement/05-sprint-zero.md).
+
 **Pilot graveyard**: An org's accumulation of impressive demos that never reached production, usually because production constraints (access, compliance, ownership) were deferred past the point of confrontation.
 
 **Platform (in this repo's sense)**: The shared, reusable layer that embedded engagements draw on and feed: patterns, connectors, eval harnesses, deployment templates. Legitimate only when extracted from real deployments (see *third-time rule*).

@@ -28,7 +28,7 @@ This is a *knowledge project*, not a software project. Everything here is prose,
 - If you're asking **"how do I get my org to actually use AI?"**, start with [enablement/00-overview.md](enablement/00-overview.md)
 - If you're asking **"what is a forward-deployed engineer and should we have them?"**, start with [forward-deployment/00-overview.md](forward-deployment/00-overview.md)
 - If you're about to **kick off an AI project with a team**, grab the templates in [playbooks/](playbooks/)
-- If you're asking **"how should a project be set up so AI agents can actually work in it?"**, start with [enablement/05-sprint-zero.md](enablement/05-sprint-zero.md)
+- If you're asking **"how should a project be set up so AI agents can actually work in it?"**, start with [enablement/05-sprint-zero.md](enablement/05-sprint-zero.md), then see the concrete [reference setup](enablement/06-reference-project-setup.md)
 
 ## Core theses
 
