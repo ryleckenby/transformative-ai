@@ -39,6 +39,6 @@ These are the claims the rest of the repo elaborates and defends:
 4. **The engagement must be designed to end.** Success for an enablement or FDE engagement is the embedded team becoming unnecessary. Dependency is failure with good optics.
 5. **Measurement keeps you honest.** Adoption theater (seats provisioned, prompts sent) is easy. Outcome measurement (cycle time, quality, rework) is what separates transformation from tourism.
 
-## Status & contributing
+## Status
 
-This is a living document set. Opinions are held with confidence and revised with evidence. See [CONTRIBUTING.md](CONTRIBUTING.md). Content is licensed [CC BY 4.0](LICENSE).
+This is a living document set. Opinions are held with confidence and revised with evidence. Content is licensed [CC BY 4.0](LICENSE).

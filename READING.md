@@ -34,4 +34,4 @@ Two biases to guard against while reading in this space:
 1. **Vendor gravity.** Most writing about AI adoption is produced by parties selling AI adoption. Prefer primary sources (S-1s, job postings, measured studies) and insider accounts with skin in the game.
 2. **Vintage decay.** Anything empirical about AI capability has a shelf life measured in months. Note the date of every claim; treat pre-2024 "AI can't X" claims as historical documents. The organizational findings (David, Rogers, Moore) age far better than the capability findings.
 
-*Suggest additions via PR; see [CONTRIBUTING.md](CONTRIBUTING.md). The bar: would a practitioner running a real engagement act differently for having read it?*
+*The bar for an addition: would a practitioner running a real engagement act differently for having read it?*
